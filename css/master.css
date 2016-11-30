@@ -147,6 +147,12 @@ li
 	font-size: 14px;
 	letter-spacing: 2px;
 	}
+@media only screen and (max-width: 800px)
+{
+ li{
+	 
+ 	font-size:12px;
+}
 .icons
 {
 	float: left;
