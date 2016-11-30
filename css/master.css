@@ -147,11 +147,11 @@ li
 	font-size: 14px;
 	letter-spacing: 2px;
 	}
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 200px)
 {
  li{
 	 
- 	font-size:10px;
+ 	font-size:8px;
 }
 .icons
 {
