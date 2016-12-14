@@ -262,6 +262,7 @@ textarea
 	background-color : rgba(255, 255, 255,0.9); 
 	left:0;
 	width:50%;
+        height:10%;
 	z-index: +2;
 
 	}
@@ -279,7 +280,7 @@ textarea
 	right:0;
 	width:100%;
 	position:fixed;
-	max-height: 70px;
+	height:10%;
 	background-color : rgba(255, 255, 255, 0.9);
 	z-index:+1;
 	
