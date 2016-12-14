@@ -240,6 +240,14 @@ li
 	float: left;
 	margin:auto;
 }
+@media only screen and (max-width: 800px)
+	{
+		.icons
+		{
+			float:center;
+		}
+		
+}
 	
 input[type=text] 
 	{
