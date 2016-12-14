@@ -244,7 +244,7 @@ li
 	{
 		.icons
 		{
-			float:center;
+			margin: 0 auto;
 		}
 		
 }
