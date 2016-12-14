@@ -46,6 +46,13 @@ body
     background-attachment: fixed;
 	background-size: cover;
 	}
+@media only screen and (max-width: 768px)
+	{
+		.bio_img
+		{
+			background-position: center;
+		}
+	}
 .index_img
 {
 	background-image: url("../image/index_black.png");
@@ -56,6 +63,13 @@ body
 	height: 75%;
 	
 }
+@media only screen and (max-width: 768px)
+	{
+		.index_img
+		{
+			background-position: center;
+		}
+	}
 h1 
 	{
 	font-family:'Lato', sans-serif;
