@@ -51,7 +51,7 @@ body
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 	}
 @media only screen and (max-width: 768px)
 	{
@@ -111,6 +111,7 @@ h1
 {
 	font-size: em;
 	font-weight:900;
+	font-size:50px;
 }
 
 #footer
@@ -267,12 +268,15 @@ textarea
 	background-color: #f2f2f2;
 	margin-left: 50px;
 	}
-#forms
+.forms
 	{
-	position:absolute;
-	right :0;
-	width: 50%;
+	
 	margin-top:10%;
+	text-align:left;
+	margin-right:0%;
+	width:50%;
+	margin-left:50%;
+	
 
 	}
 .logo
@@ -373,9 +377,11 @@ textarea
 .placement
 {
 	text-align:left;
-	right:0;
-	position:absolute;
+	margin-right:0;
+	width:50%;
+	margin-left:50%;
 	margin-top: 10%;
+	
 
 }
 @media only screen and (max-width: 800px)
@@ -393,12 +399,28 @@ textarea
 }
 .left_p
 {
+	margin-top:10%;
 	text-align:left;
-	left:0;
+	margin-right:50%;
 	width:50%;
-	position:absolute;
-	margin-top: 10%;
-	margin-left:5%;
+	margin-left:0%;
+}
+@media only screen and (max-width: 800px){
+	.left_p{
+		width:100%;
+		text-align:center;
+
+	}
+}
+
+.left_s
+{
+	margin-top:0%;
+	text-align:left;
+	margin-right:50%;
+	width:50%;
+	margin-left:0%;
+	margin-bottom: 10%
 }
 @media only screen and (max-width: 800px){
 	.left_p{
@@ -427,12 +449,13 @@ textarea
 }
 .left_cv
 {
+	
 	text-align:left;
-	left:0;
-	width:90%;
-	position:absolute;
+	margin-right:50%;
+	width:50%;
+	margin-left:0%;
 	margin-top: 10%;
-	margin-left:5%;
+	margin-bottom:100%;
 }
 .active_page
 {
