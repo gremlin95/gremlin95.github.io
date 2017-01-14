@@ -52,6 +52,7 @@ body
     background-position: left;
     background-attachment: fixed;
 	background-size: contain;
+		max-height:75%;
 	}
 @media only screen and (max-width: 768px)
 	{
