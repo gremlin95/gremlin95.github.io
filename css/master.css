@@ -49,10 +49,10 @@ body
 	padding:5%;
     background-image:url("../image/bio_black.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left bottom;
     background-attachment: fixed;
 	background-size: contain;
-		max-height:75%;
+		
 	}
 @media only screen and (max-width: 768px)
 	{
