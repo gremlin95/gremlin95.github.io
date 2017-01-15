@@ -93,11 +93,7 @@ h1
 
 	font-size: 1em;
 	}
-.center{
-	background-color: rgba(255, 255, 255, 0.9);
-	width:75;
-	
-}
+
 .hi_footer
 {
 	color:white;
@@ -508,3 +504,36 @@ a:hover, a:active
 	text-decoration: none;
 	text-decoration: none;
 	}
+.center
+{
+	width:100%;
+	height:500px;
+}
+.center2
+{
+    background-color: rgba (0,0,0,0.3);
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:12%;
+	height:500px;
+	
+	
+}
+#check
+{
+	float:right;
+	padding-right:60px;
+	padding-top:25px;
+	
+
+}
+input[type=submit]
+{
+	padding:9px 40px;
+	background-color: rgb(255,255,255);
+	border-radius:10px;
+	cursor:pointer;
+	border-bottom-color:#00b3b3;
+	
+}
